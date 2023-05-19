@@ -39,11 +39,11 @@ gui:
   experimentalShowBranchHeads: false # visualize branch heads with (*) in commits list
   showBottomLine: false # for hiding the bottom information line (unless it has important information to tell you)
   showCommandLog: false
-  showIcons: false
+  showIcons: true
   commandLogSize: 8
   splitDiff: "auto" # one of 'auto' | 'always'
   skipRewordInEditorWarning: false # for skipping the confirmation before launching the reword editor
-  border: "hidden" # one of 'single' | 'double' | 'rounded' | 'hidden'
+  border: "rounded" # one of 'single' | 'double' | 'rounded' | 'hidden'
 
 git:
   paging:
